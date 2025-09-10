@@ -198,15 +198,38 @@
       box-shadow: 0 6px 12px rgba(94, 26, 26, 0.8);
     }
 
+    .btn-sponsor-header {
+  background-color: #ffd700; /* amarillo llamativo */
+  color: #5e1a1a;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-sponsor-header:hover {
+  background-color: #e6c200;
+  transform: scale(1.05);
+}
+
+/* Opcional: scroll suave */
+html {
+  scroll-behavior: smooth;
+}
+
 
   </style>
 </head>
 <body>
-  <header>
-    <h1>AMAL - Encuentro de Bellydance Bariloche</h1>
-    <p>Arte, cultura y formación en el corazón de Bariloche</p>
+<header>
+  <h1>AMAL - Encuentro de Bellydance Bariloche</h1>
+  <p>Arte, cultura y formación en el corazón de Bariloche</p>
+  <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; align-items: center;">
     <div class="fecha-evento">10 y 11 de octubre · Bariloche</div>
-  </header>
+    <a href="#sponsors" class="btn-sponsor-header">Quiero ser Sponsor</a>
+  </div>
+</header>
 
   <section>
     <h2>¿Qué es AMAL?</h2>
@@ -284,6 +307,8 @@
       <li>Sala o espacio con capacidad para 40/50 personas</li>
       <li>Espacio para que se cambien los bailarines</li>
       <li>Equipamiento básico de sonido y luces</li>
+      <li>Escenario o espacio para montarlo</li>
+      <li>Sillas para el público</li>
     </ul>
   </section>
 
@@ -379,6 +404,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
